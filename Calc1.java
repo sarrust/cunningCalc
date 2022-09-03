@@ -4,8 +4,8 @@ public class Calc1 {
         public static void main(String[] args) throws Exception{
             CalculatorHelper calculatorHelper = new CalculatorHelper();
             System.out.println("Введите выражение:");
-            Scanner myObj = new Scanner(System.in);  // Create a Scanner object
-            String input = myObj.nextLine();  // Read user input
+            Scanner myObj = new Scanner(System.in);
+            String input = myObj.nextLine();
             System.out.println(calculatorHelper.calc(input));
         }
     }
